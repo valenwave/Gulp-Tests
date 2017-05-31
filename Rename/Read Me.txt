@@ -1,0 +1,32 @@
+I can change the directory. 
+I can add to the name. 
+I can change the extension. 
+I can add a prefix.
+I can add a suffix.
+
+Command:
+gulp
+
+For more information:
+https://www.npmjs.com/package/gulp-rename
+
+// rename via function 
+gulp.src("./src/**/hello.txt")
+  .pipe(rename(function (path) {
+    path.dirname += "/ciao";
+    path.basename += "-goodbye";
+    path.extname = ".md"
+  }))
+  .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/hello-goodbye.md 
+ 
+// rename via hash 
+gulp.src("./src/main/text/hello.txt", { base: process.cwd() })
+  .pipe(rename({
+    dirname: "main/text/ciao",
+    basename: "aloha",
+    prefix: "bonjour-",
+    suffix: "-hola",
+    extname: ".md"
+  }))
+  .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/bonjour-aloha-hola.md 
+ 
