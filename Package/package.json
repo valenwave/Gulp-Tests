@@ -1,0 +1,7 @@
+{
+	"devDependencies":{
+		"gulp": "latest",
+		"gulp-util": "latest",
+		"gulp-sass": "latest"
+	}
+}
