@@ -1,1 +1,7 @@
-I don't think that we can have gulp run a gulp file other than gulpfile.js
+To run gulpfile.js
+-) Open command line in this folder.
+-) type "gulp"
+
+To run gulpfile2.js
+-) Open command line in this folder.
+-) type "gulp --gulpfile gulpfile2.js"
