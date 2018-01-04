@@ -1,5 +1,8 @@
 3807 Jefferson CU eInfo Jun 2017.pdf
 
+What I can try to pull out. 
+Jun
+
 https://static.itsme247.com/Newsletters/807/2017/June_2017_807.pdf
 
 Paths to automating eInfos:
@@ -7,3 +10,4 @@ Variables: Month & Year
 Split: by space to get the account number. 
 Convert database: their number to our number. 
 Put it all together into one file.  
+
