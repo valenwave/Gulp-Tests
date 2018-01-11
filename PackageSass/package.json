@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"gulp": "latest",
+		"gulp-util": "latest",
+		"gulp-sass": "latest",
+		"run-sequence": "latest",
+		"yargs": "latest",
+		"path": "latest"
+	}
+}
